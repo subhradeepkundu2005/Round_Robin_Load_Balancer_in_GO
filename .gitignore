@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+myenv/
+
+# Go
+bin/
+*.exe
+*.out
+*.test
+
+# VS Code
+.vscode/
+
+# Logs
+logs/
+*.log
+
+# Dependencies
+node_modules/
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db

@@ -1,3 +1,17 @@
+<div align="center">
+
+# Round-Robin Load Balancer
+
+*A lightweight reverse proxy for fair, fault-tolerant traffic distribution*
+
+![Go](https://img.shields.io/badge/Go-1.20%2B-00ADD8?style=flat-square&logo=go&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?style=flat-square&logo=python&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
+
+</div>
+
+---
+
 # Round-Robin Load Balancer
 
 A lightweight, high-performance load balancer that distributes HTTP traffic evenly across multiple backend servers. The load balancer is implemented in Go for speed and concurrency, with backend services built using Flask (Python), and traffic is routed through a reverse proxy using the round-robin scheduling algorithm.
@@ -15,6 +29,20 @@ A lightweight, high-performance load balancer that distributes HTTP traffic even
 - [License](#license)
 - [Contact](#contact)
 
+---
+
+## Overview
+
+This project implements a round-robin load balancer that distributes incoming HTTP requests fairly across a pool of backend servers. It pairs the concurrency and performance of Go with the simplicity of Flask-based Python services, offering a clean, practical reference for reverse proxying and load-balancing design.
+
+## Features
+
+- **Reverse Proxy** — forwards client requests to backend servers transparently
+- **Round-Robin Scheduling** — distributes traffic evenly across all available servers
+- **Flask & Go Integration** — Python's flexibility, paired with Go's performance
+- **Scalability** — accommodates additional backend servers with minimal configuration
+- **Fault Tolerance** — sustains traffic distribution when individual servers go down
+- **Simple Deployment** — minimal setup to get running locally
 ## Overview
 
 This project implements a round-robin load balancer designed to distribute incoming HTTP requests fairly across a pool of backend servers. It combines the performance and concurrency strengths of Go with the flexibility of Flask-based Python backends, making it a practical reference implementation for understanding reverse proxying and load-balancing concepts.
@@ -93,6 +121,29 @@ Incoming requests are distributed evenly across all registered backend servers u
 - [ ] Add configurable server pools via a config file
 
 ## Contributing
+
+Contributions are welcome. If you'd like to improve this project:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes
+4. Push to the branch and open a pull request
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## Contact
+
+<div align="center">
+
+**Subhradeep Kundu**
+
+[Email](mailto:subhradeepkundu27@gmail.com) · [GitHub](https://github.com/subhradeepkundu270305)
+
+</div>
 
 Contributions are welcome. If you'd like to improve this project:
 

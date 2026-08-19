@@ -12,6 +12,10 @@
 
 ---
 
+# Round-Robin Load Balancer
+
+A lightweight, high-performance load balancer that distributes HTTP traffic evenly across multiple backend servers. The load balancer is implemented in Go for speed and concurrency, with backend services built using Flask (Python), and traffic is routed through a reverse proxy using the round-robin scheduling algorithm.
+
 ## Table of Contents
 
 - [Overview](#overview)
@@ -39,6 +43,20 @@ This project implements a round-robin load balancer that distributes incoming HT
 - **Scalability** — accommodates additional backend servers with minimal configuration
 - **Fault Tolerance** — sustains traffic distribution when individual servers go down
 - **Simple Deployment** — minimal setup to get running locally
+## Overview
+
+This project implements a round-robin load balancer designed to distribute incoming HTTP requests fairly across a pool of backend servers. It combines the performance and concurrency strengths of Go with the flexibility of Flask-based Python backends, making it a practical reference implementation for understanding reverse proxying and load-balancing concepts.
+
+## Features
+
+| Feature | Description |
+|---|---|
+| **Reverse Proxy** | Forwards client requests to backend servers transparently. |
+| **Round-Robin Scheduling** | Distributes traffic evenly and fairly across all available servers. |
+| **Flask & Go Integration** | Combines Python's flexibility with Go's performance and concurrency. |
+| **Scalability** | Designed to accommodate additional backend servers with minimal configuration. |
+| **Fault Tolerance** | Maintains traffic distribution even when individual servers become unavailable. |
+| **Simple Deployment** | Minimal setup required to get the system running locally. |
 
 ## Project Structure
 
@@ -126,3 +144,20 @@ This project is licensed under the [MIT License](LICENSE).
 [Email](mailto:subhradeepkundu27@gmail.com) · [GitHub](https://github.com/subhradeepkundu270305)
 
 </div>
+
+Contributions are welcome. If you'd like to improve this project:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes
+4. Push to the branch and open a pull request
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Contact
+
+**Subhradeep Kundu**
+Email: subhradeepkundu27@gmail.com
+GitHub: [@subhradeepkundu270305](https://github.com/subhradeepkundu270305)
